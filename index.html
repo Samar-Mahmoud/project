@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classy Store</title>
+    <link rel="stylesheet" href="stylehome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
+    <script src="javascript.js"></script>
+</head>
+
+<body>
+    <div class="header" id="topnav">
+        <a href="index.html" id="logo" class="logo"><img src="logoo.png" style="height:60px;"></a>
+        <div class="resp">
+            <div class="links">
+                <a href="index.html">HOME</a>
+                <div class="dropdown">
+                    <a href="index.html#categories" class="dropbtn" style="margin-top: -2px;">GATEGORIES
+                        <span class="fa fa-caret-down" style="margin: 0;padding: 0 0 0 7px;"></span>
+                    </a>
+                    <div class="dropdowncontent">
+                        <a href="dresses&accessories.html">Dresses</a>
+                        <a href="blouses.html">Blouses</a>
+                        <a href="coats&shoes.html">Coats</a>
+                        <a href="dresses&accessories.html#accessories">Accessories</a>
+                        <a href="coats&shoes.html#shoes">Shoes</a>
+                    </div>
+                </div>
+                <a href="index.html#sale">SALE</a>
+                <a href="form.html">SHOP</a>
+                <a href="index.html#review">REVIEWS</a>
+            </div>
+        </div>
+        <a href="javascript:void(0);" style="font-size:25px;" id="icon" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <div class="main">
+        <div class="container">
+            <img src="home.jpeg">
+            <div class="ho">
+                <img src="logo.jpeg" id="ho">
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="sectionhead">
+        <h4>WHO WE ARE</h4>
+    </div> -->
+    <div style="overflow: hidden; margin-top: 50px;">
+        <o class="h">________WHO WE ARE________</p>
+            <p>Welcome to Classy Store. Classy store creates clothes for the women who truly love classic, vintage
+                items.
+                With a team of talented designers, we make fashion that captures classic centuries spirit and attitude.
+                <br>
+                Wish you find what you search for.
+            </p>
+    </div>
+
+    <div>
+        <div id="categories"></div>
+        <div class="sectionhead">
+            <h4>CATEGORIES</h4>
+        </div>
+
+        <div class="categories">
+            <div class="card">
+                <a href="dresses&accessories.html">
+                    <img src="dresses.png" class="image">
+                    <div class="overlay">
+                        <div class="text">DRESSES</div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="blouses.html">
+                    <img src="basic.jpg" class="image">
+                    <div class="overlay">
+                        <div class="text">BLOUSES</div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="coats&shoes.html">
+                    <img src="coat5.jpg" class="image" style="object-position: center;">
+                    <div class="overlay">
+                        <div class="text">COATS</div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="dresses&accessories.html#accessories">
+                    <img src="accessories .jpg" style="object-position: bottom;" class="image">
+                    <div class="overlay">
+                        <div class="text">ACCESSORIES</div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="coats&shoes.html#shoes">
+                    <img src="shoes.jpg" class="image">
+                    <div class="overlay">
+                        <div class="text">SHOES</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="sale"></div>
+    <div class="sectionhead">
+        <h4>SALES</h4>
+    </div>
+    <div class="sales">
+        <div class="card">
+            <a href="dresses&accessories.html#dresses">
+                <img src="dressale.png" class="image" style="object-position: center;">
+                <h1 class="button">SALE 10%</h1>
+            </a>
+        </div>
+        <div class="card">
+            <a href="blouses.html#blouses">
+                <img src="blosale.jpg" class="image" style="object-position: top;">
+                <h1 class="button">SALE 15%</h1>
+            </a>
+        </div>
+        <div class="card">
+            <a href="coats&shoes.html#shoes">
+                <img src="shoes5.png" class="image" style="object-position: center;">
+                <h1 class="button">SALE 5%</h1>
+            </a>
+        </div>
+    </div>
+
+    <div id="review"></div>
+    <div class="sectionhead">
+        <h4>REVIEWS</h4>
+    </div>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star non"></span>
+    <p style="color:rgb(150, 139, 113);">4.1 average based on 254 reviews.</p>
+    <div class="row">
+        <div class="side">
+            <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            </div>
+        </div>
+        <div class="middle">
+            <div class="bar-container">
+                <div class="bar-5"></div>
+            </div>
+        </div>
+        <div class="side right">
+            <div>150</div>
+        </div>
+        <div class="side">
+            <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star non"></span>
+            </div>
+        </div>
+        <div class="middle">
+            <div class="bar-container">
+                <div class="bar-4"></div>
+            </div>
+        </div>
+        <div class="side right">
+            <div>63</div>
+        </div>
+        <div class="side">
+            <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star non"></span>
+                <span class="fa fa-star non"></span>
+            </div>
+        </div>
+        <div class="middle">
+            <div class="bar-container">
+                <div class="bar-3"></div>
+            </div>
+        </div>
+        <div class="side right">
+            <div>15</div>
+        </div>
+        <div class="side">
+            <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star non"></span>
+                <span class="fa fa-star non"></span>
+                <span class="fa fa-star non"></span>
+            </div>
+        </div>
+        <div class="middle">
+            <div class="bar-container">
+                <div class="bar-2"></div>
+            </div>
+        </div>
+        <div class="side right">
+            <div>6</div>
+        </div>
+        <div class="side">
+            <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star non"></span>
+                <span class="fa fa-star non"></span>
+                <span class="fa fa-star non"></span>
+                <span class="fa fa-star non"></span>
+            </div>
+        </div>
+        <div class="middle">
+            <div class="bar-container">
+                <div class="bar-1"></div>
+            </div>
+        </div>
+        <div class="side right">
+            <div>20</div>
+        </div>
+    </div>
+
+    <div class="feedback">
+        <form>
+            <table>
+                <th colspan="2"> Feedback</th>
+                <tr>
+                    <td class="sidecell"><label for="name">Full Name</label></td>
+                    <td><input type="text" id="name" name="name" placeholder="Samar Mahmoud" required></td>
+                </tr>
+                <tr>
+                    <td class="sidecell"> <label>Gender</label></td>
+                    <td>
+                        <select id="gender" name="gender">
+                            <option value="male">Male</option>
+                            <option value="female" selected>Female</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="sidecell"><label for="email">Email</label></td>
+                    <td><input type="email" id="email" name="email" placeholder="samar@mahmoud.com"></td>
+                </tr>
+                <tr>
+                    <td class="sidecell"><label for="city">City</label></td>
+                    <td><input type="city" id="city" name="city" placeholder="Egypt, Cairo"></td>
+                </tr>
+                <tr>
+                    <td class="sidecell"><label for="description">Feedback</label></td>
+                    <td><textarea id="description" name="ability" placeholder="feedack..."></textarea></td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td colspan="2">
+                        <input class="btn" type="submit" value="Submit feedback">
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer-left">
+            <img src="logowzname.jpeg" style="width: 100px; margin-left: 8px;">
+            <h3>About<span>Classy</span></h3>
+            <p class="footer-links">
+                <a href="#">Home</a>
+                |
+                <a href="#">About</a>
+                |
+                <a href="#">Contact</a>
+            </p>
+            <p class="websiteName">© 2021 Classy Vintage Fashion</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>309 - Rupa Solitaire,
+                        Bldg. No. A - 1, Sector - 1</span>
+                    Mahape, Navi Mumbai - 400710</p>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+91 22-27782183</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:classyvintage@fashion.com">classyvintage@fashion</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="websiteAbout">
+                <span>About Classy</span>
+                We peovide unique vintage items like classic centuries
+            </p>
+            <div class="footer-icons">
+                <a href="https://en-gb.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://twitter.com/login?lang=ar" target="_blank"><i class="fa fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

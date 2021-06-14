@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="styleform.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
+    <script src="javascript.js"></script>
+</head>
+
+<body>
+    <div class="header" id="topnav">
+        <a href="index.html" id="logo" class="logo"><img src="logoo.png" style="height:60px;"></a>
+        <div class="resp">
+            <div class="links">
+                <a href="index.html">HOME</a>
+                <div class="drop">
+                    <a href="index.html#categories" class="dropbtn" style="margin-top: -2px;">GATEGORIES
+                        <span class="fa fa-caret-down" style="margin: 0;padding: 0 0 0 7px;"></span>
+                    </a>
+                    <div class="dropcontent">
+                        <a href="dresses&accessories.html">Dresses</a>
+                        <a href="blouses.html">Blouses</a>
+                        <a href="coats&shoes.html">Coats</a>
+                        <a href="dresses&accessories.html#accessories">Accessories</a>
+                        <a href="coats&shoes.html#shoes">Shoes</a>
+                    </div>
+                </div>
+                <a href="index.html#sale">SALE</a>
+                <a href="form.html">SHOP</a>
+                <a href="index.html#review">REVIEWS</a>
+            </div>
+        </div>
+        <a href="javascript:void(0);" style="font-size:25px;" id="icon" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <div class="sectionhead">
+        <h4>Shop Now</h4>
+    </div>
+
+    <form id="register" action="index.html" method="GET">
+        <fieldset>
+            <legend>Registration</legend>
+            <div class="row">
+                <div class="col">
+                    <label for="fname"><i class="fa fa-user"></i> First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Samar">
+                    <label for="lname"><i class="fa fa-user"></i> Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Mahmoud">
+                    <label for="gender"><i class="fa fa-transgender"></i> Gender</label>
+                    <select id="gender" name="gender">
+                        <option value="female"> Female</option>
+                        <option value="male"> Male</option>
+                    </select>
+                    <label for="city"><i class="fa fa-map-marker"></i> City</label>
+                    <input type="text" id="city" name="city" placeholder="Egypt, Cairo">
+                    <label for="address"><i class="fa fa-home"></i> Address</label>
+                    <input type="text" id="address" name="address">
+                    <label for="phone"><i class="fa fa-mobile-phone"></i> Mobile phone</label>
+                    <input type="text" id="phone" name="phone" placeholder="01234567891">
+                </div>
+
+                <div class="col">
+                    <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                    <input type="text" id="email" name="email" placeholder="samar@mahmoud.com">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password"
+                        placeholder=" only 8 characters, uppercase and lowercase characters, at least 1 digit, 1 special character, no white space.">
+                    <label for="code">Selected item's code</label>
+                    <input type="text" id="code" name="code" value="#11111" readonly>
+                    <label for="cname">Name on Card</label>
+                    <input type="text" id="cname" name="cardname" placeholder="Samar Mahmoud">
+                    <label for="ccnum">Card number</label>
+                    <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                    <label>Accepted Cards</label>
+                    <div class="icon-container">
+                        <i class="fa fa-cc-visa" style="color:navy;"></i>
+                        <i class="fa fa-cc-amex" style="color:blue;"></i>
+                        <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                        <i class="fa fa-cc-discover" style="color:orange;"></i>
+                    </div>
+                </div>
+            </div>
+            <input type="submit" value="Order" class="btn">
+        </fieldset>
+    </form>
+
+    <footer>
+        <div class="footer-left">
+            <img src="logowzname.jpeg" style="width: 100px; margin-left: 8px;">
+            <h3>About<span>Classy</span></h3>
+            <p class="footer-links">
+                <a href="#">Home</a>
+                |
+                <a href="#">About</a>
+                |
+                <a href="#">Contact</a>
+            </p>
+            <p class="websiteName">© 2021 Classy Vintage Fashion</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>309 - Rupa Solitaire,
+                        Bldg. No. A - 1, Sector - 1</span>
+                    Mahape, Navi Mumbai - 400710</p>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+91 22-27782183</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:classyvintage@fashion.com">classyvintage@fashion</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="websiteAbout">
+                <span>About Classy</span>
+                We peovide unique vintage items like classic centuries
+            </p>
+            <div class="footer-icons">
+                <a href="https://en-gb.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://twitter.com/login?lang=ar" target="_blank"><i class="fa fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
